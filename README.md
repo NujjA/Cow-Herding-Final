@@ -2,7 +2,9 @@
 
 ## 1. Requirements:
 mesa - https://github.com/projectmesa/mesa
+
 numpy
+
 dill
 
 ## 2. Runnable files:
