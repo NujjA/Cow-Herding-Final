@@ -6,9 +6,7 @@ numpy
 dill
 
 ## 2. Runnable files:
-collect_data.py - This is what I used to collect my data. Runs 3000 episodes with a team of two Random Agents, 3000 episodes with a team of 
-
-Plan Agents, and 3000 episodes with a team of two Monte Carlo agents. Exports data to csv.
+collect_data.py - This is what I used to collect my data. Runs 3000 episodes with a team of two Random Agents, 3000 episodes with a team of Plan Agents, and 3000 episodes with a team of two Monte Carlo agents. Exports data to csv.
 
 batch_run.py - *DO NOT RUN THIS UNLESS YOU WANT TO RETRAIN THE MONTE CARLO AGENTS* Overwrites previously trained Q table and begins the 
 
