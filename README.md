@@ -12,6 +12,8 @@ dill
 python 3.6.4 via Anaconda
 
 ## 2. Runnable files:
+Output Notebook - A Jupyter notebook where you can easily change the number of episodes and steps per episode to see the resulting output.
+
 run.py - Runs a visualization in the web browser. Probably the best way to see the agents at work. Change the number/type of agents at the bottom of server.py where it says ### Change number of agents here! ###. For best results, please keep teams of two agents since that's what the Q table is trained on.
 
 collect_data.py - This is what I used to collect my data. Runs 3000 episodes with a team of two Random Agents, 3000 episodes with a team of Plan Agents, and 3000 episodes with a team of two Monte Carlo agents. Exports data to csv.
