@@ -1,11 +1,15 @@
 # Cow Herding Final
 
 ## 1. Requirements:
-mesa - https://github.com/projectmesa/mesa
+Please see requirements.txt for full output of my virtual environment as reported by pip freeze. All packages may not be necessary.
+
+mesa - https://github.com/projectmesa/mesa (pip install git+https://github.com/projectmesa/mesa)
 
 numpy
 
 dill
+
+python 3.6.4 via Anaconda
 
 ## 2. Runnable files:
 run.py - Runs a visualization in the web browser. Probably the best way to see the agents at work. Change the number/type of agents at the bottom of server.py where it says ### Change number of agents here! ###. For best results, please keep teams of two agents since that's what the Q table is trained on.
