@@ -25,6 +25,9 @@ training process over. Trains a team of two Monte Carlo agents for 25,000 episod
 
 
 ## 3. Other files:
+
+Research and results writeup: https://github.com/NujjA/Cow-Herding-Final/blob/master/Reinforcement%20Learning%20in%20a%20Dynamic%20Multi-Agent%20Environment.pdf
+
 montecarlo.py - Agents that perform Monte Carlo learning and build a Q table
 
 trained_mc_agent.py - Agents that use a pre-trained Q table to select actions
